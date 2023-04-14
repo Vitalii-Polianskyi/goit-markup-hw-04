@@ -171,15 +171,14 @@ a.nav-link {
 .features-list-content {
   width: 264px;
   height: 112px;
-  background: var(--back-color-section);
+  background: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px 102px;
 }
 
 .titel-one {
