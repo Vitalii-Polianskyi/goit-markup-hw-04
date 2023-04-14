@@ -165,6 +165,25 @@ a.nav-link {
   width: 1158px;
   height: 600px;
 }
+
+/* Sections2 Icon */
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-list-content {
+  width: 264px;
+  height: 112px;
+  background: var(--back-color-section);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.icon-container {
+  align-items: center;
+  justify-content: center;
+  padding: 24px 102px;
+}
+
 .titel-one {
   text-align: auto;
   margin-left: auto;
