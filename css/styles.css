@@ -340,8 +340,6 @@ a.nav-link {
   gap: 24px;
 }
 .customers-items {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
@@ -351,6 +349,8 @@ a.nav-link {
   height: 88px;
 }
 .customers-link {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -364,6 +364,7 @@ a.nav-link {
   fill: var(--back-color-btn-order);
 }
 .customers-icon {
+  fill: currentColor;
 }
 .customers-icon:hover,
 .customers-icon:focus {
