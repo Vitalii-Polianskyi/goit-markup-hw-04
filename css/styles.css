@@ -8,6 +8,7 @@
   --back-graund-color: #e5e5e5;
   --back-color-section: #f4f4fd;
   --back-color-btn-order: #404bbf;
+  --subtle-text: #8e8f99;
 }
 h1,
 h2,
@@ -329,6 +330,7 @@ a.nav-link {
 /* section-Costomers */
 .customers-header {
   margin-bottom: 72px;
+  line-height: 1.1;
 }
 .section-customers {
   padding-top: 120px;
@@ -361,10 +363,11 @@ a.nav-link {
 .customers-link:focus {
   border: 1px solid var(--back-color-btn-order);
   border-radius: 4px;
-  fill: var(--back-color-btn-order);
+  /* fill: var(--back-color-btn-order); */
 }
 .customers-icon {
-  fill: currentColor;
+  /* fill: currentColor; */
+  fill: var(--subtle-text);
 }
 .customers-icon:hover,
 .customers-icon:focus {
