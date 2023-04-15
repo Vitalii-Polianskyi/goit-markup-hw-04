@@ -340,6 +340,7 @@ a.nav-link {
 .customers-menu {
   display: flex;
   gap: 24px;
+  list-style: none;
 }
 .customers-items {
   margin-left: auto;
@@ -358,20 +359,20 @@ a.nav-link {
   justify-content: center;
   align-items: center;
   display: flex;
+  color: #afb1b8;
 }
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--back-color-btn-order);
   border-radius: 4px;
-  /* fill: var(--back-color-btn-order); */
+  color: #404bbf;
 }
 .customers-icon {
-  /* fill: currentColor; */
   fill: var(--subtle-text);
 }
 .customers-icon:hover,
 .customers-icon:focus {
-  fill: var(--back-color-btn-order);
+  fill: currentColor;
 }
 
 .footer-background {
