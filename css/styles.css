@@ -363,7 +363,7 @@ a.nav-link {
 }
 .customers-link:hover,
 .customers-link:focus {
-  border: 1px solid var(--back-color-btn-order);
+  border-color: var(--back-color-btn-order);
   border-radius: 4px;
   color: #404bbf;
 }
