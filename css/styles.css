@@ -365,13 +365,9 @@ a.nav-link {
 .customers-link:focus {
   border-color: var(--back-color-btn-order);
   border-radius: 4px;
-  color: #404bbf;
+  color: var(--pressed-color);
 }
 .customers-icon {
-  fill: var(--subtle-text);
-}
-.customers-icon:hover,
-.customers-icon:focus {
   fill: currentColor;
 }
 
