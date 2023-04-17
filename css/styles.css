@@ -64,6 +64,11 @@ body {
   color: var(--body-text);
   background-color: var(--white-color);
 }
+/**
+  |============================
+  | Heder
+  |============================
+*/
 .header-border {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -160,6 +165,11 @@ a.nav-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/**
+  |============================
+  | Section Hero
+  |============================
+*/
 .hero {
   background-color: var(--dark-color);
   padding-top: 188px;
@@ -181,7 +191,11 @@ a.nav-link {
   height: 600px;
 }
 
-/* Sections2 Icon */
+/**
+  |============================
+  | Section2 icon
+  |============================
+*/
 
 .features-list-content {
   width: 264px;
@@ -320,7 +334,12 @@ a.nav-link {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
-/* social icon list */
+
+/**
+  |============================
+  | Social icon list
+  |============================
+*/
 
 .social {
   display: flex;
@@ -404,6 +423,11 @@ a.nav-link {
   display: inline-block;
   margin-bottom: 16px;
 }
+/**
+  |============================
+  | Footer
+  |============================
+*/
 .footer-background .color {
   color: var(--back-color-section);
 }
