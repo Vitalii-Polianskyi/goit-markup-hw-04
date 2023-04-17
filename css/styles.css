@@ -360,7 +360,7 @@ a.nav-link {
   justify-content: center;
   align-items: center;
   display: flex;
-  color: #afb1b8;
+  color: var(--subtle-text);
 }
 .customers-link:hover,
 .customers-link:focus {
